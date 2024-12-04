@@ -9,4 +9,5 @@ function Goodbye(){
     );
 }
 
+
 export default Goodbye;

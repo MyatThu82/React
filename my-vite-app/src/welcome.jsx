@@ -1,12 +1,12 @@
-function welcome(){
+function Welcome(){
     return(
         <section>
-            <h2>React Introduction</h2>
+            <h2>Welcome REACT</h2>
             <p>
-                Hello React.
+                Hello, Welcome to React.
             </p>
         </section>
     );
 }
 
-export default welcome;
+export default Welcome;

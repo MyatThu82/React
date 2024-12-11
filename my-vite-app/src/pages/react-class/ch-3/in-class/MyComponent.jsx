@@ -6,7 +6,7 @@ export default class MyComponment extends Component{
         second: 'loading...',
         third: 'loading...',
         fourth: 'loading...',
-        doneMessage: 'finished!'
+        doneMessage: '.....'
     };
 
     render() {
@@ -16,20 +16,41 @@ export default class MyComponment extends Component{
             this.setState({
                 first: 'done',
             });
-        },3000);
+        },2000);
 
         setTimeout(()=>{
             this.setState({
                 second: 'done',
             });
         },3000);
+
+        setTimeout(()=>{
+            this.setState({
+                third: 'done',
+            });
+        },4000);
+
+        setTimeout(()=>{
+            this.setState({
+                fourth: 'done',
+            });
+        },5000);
+
+        setTimeout(()=>{
+            this.setState({
+                doneMessage: 'Finished!',
+            });
+        },6000);
         
         return (
             <>
             <p>{state.first}</p>
+            <p>{state.second}</p>
+            <p>{state.third}</p>
+            <p>{state.fourth}</p>
+            <p>{state.doneMessage}</p>
             </>
         )
          
-        
-            } 
+         } 
 }

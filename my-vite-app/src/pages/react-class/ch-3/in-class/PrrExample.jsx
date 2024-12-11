@@ -35,4 +35,4 @@ function PrrExample() {
   );
 }
 
-export default PrrExample
+export default PrrExample;

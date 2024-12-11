@@ -8,16 +8,27 @@ import Looping1 from './pages/react-class/ch-2/in-class/Looping1'
 import WithFragment from './pages/react-class/ch-2/in-class/WithFragment'
 import WithoutFragment from './pages/react-class/ch-2/in-class/WithoutFragment'
 import StateExample from './pages/react-class/ch-3/in-class/StateExample'
+import MyComponment from './pages/react-class/ch-3/in-class/MyComponent'
+import { Propsexample } from './pages/react-class/ch-3/in-class/Propsexample'
+import Functionex from './pages/react-class/ch-3/in-class/Functionex'
+import PrrExample from './pages/react-class/ch-3/in-class/PrrExample'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
    <div>
-      <StateExample/>
+   
+      <PrrExample/>
     </div>
     );
 }
+
+
+
+
+
 
 // import React from 'react';
 

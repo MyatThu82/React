@@ -12,14 +12,14 @@ import { Propsexample } from './pages/react-class/ch-3/in-class/Propsexample'
 import Functionex from './pages/react-class/ch-3/in-class/Functionex'
 import PrrExample from './pages/react-class/ch-3/in-class/PrrExample'
 import MyComponment from './pages/react-class/ch-3/in-class/MyComponent'
-
+import Context from './pages/react-class/ch-3/in-class/Context'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
    <div>
-         <MyComponment/>
+         <Context/>
     </div>
     );
 }

@@ -13,13 +13,16 @@ import Functionex from './pages/react-class/ch-3/in-class/Functionex'
 import PrrExample from './pages/react-class/ch-3/in-class/PrrExample'
 import MyComponment from './pages/react-class/ch-3/in-class/MyComponent'
 import Context from './pages/react-class/ch-3/in-class/Context'
+import First from './pages/react-class/ch-3/in-class/First'
+import Second from './pages/react-class/ch-3/in-class/Second'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
    <div>
-         <Context/>
+         <First/>
+         <Second/>
     </div>
     );
 }

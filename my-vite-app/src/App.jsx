@@ -15,14 +15,16 @@ import MyComponment from './pages/react-class/ch-3/in-class/MyComponent'
 import Context from './pages/react-class/ch-3/in-class/Context'
 import First from './pages/react-class/ch-3/in-class/First'
 import Second from './pages/react-class/ch-3/in-class/Second'
+import Example from './pages/react-class/ch-4/Example'
+import Example2 from './pages/react-class/ch-4/Example2'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
    <div>
-         <First/>
-         <Second/>
+        <Example2/>
     </div>
     );
 }

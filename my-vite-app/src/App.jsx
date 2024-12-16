@@ -17,6 +17,7 @@ import First from './pages/react-class/ch-3/in-class/First'
 import Second from './pages/react-class/ch-3/in-class/Second'
 import Example from './pages/react-class/ch-4/Example'
 import Example2 from './pages/react-class/ch-4/Example2'
+import Example3 from './pages/react-class/ch-4/Example3'
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
 
   return (
    <div>
-        <Example2/>
+        <Example3/>
     </div>
     );
 }
